@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aztecrabbit/liblog"
-	"github.com/aztecrabbit/libproxyrotator"
-	"github.com/aztecrabbit/libutils"
+	"github.com/victorgeel/liblog"
+	"github.com/victorgeel/libproxyrotator"
+	"github.com/victorgeel/libutils"
 )
 
 var (
@@ -24,7 +24,7 @@ var (
 		Protocols: []string{
 			"FRONTED-MEEK-HTTP-OSSH"
 		},
-		TunnelWorkers:  7,
+		TunnelWorkers:  8,
 		KuotaDataLimit: 0,
 		Authorizations: make([]string, 0),
 	}
